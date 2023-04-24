@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Big+Shoulders+Display:wght@700&family=Montserrat:wght@400;600;700&family=Raleway:wght@400;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.indicator{
+    @apply after:bg-primary after:w-[89px] after:h-1 after:absolute  after:left-0 after:rounded-t after:rounded-b-none after:bottom-[-18px];
+}
