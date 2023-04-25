@@ -4,5 +4,5 @@
 @tailwind utilities;
 
 .indicator{
-    @apply after:bg-primary after:w-[89px] after:h-1 after:absolute  after:left-0 after:rounded-t after:rounded-b-none after:bottom-[-18px];
+    @apply after:bg-primary after:w-[85px] md:after:w-[89px] after:h-1 after:absolute  after:left-0 after:rounded-t after:rounded-b-none after:bottom-[-18px];
 }

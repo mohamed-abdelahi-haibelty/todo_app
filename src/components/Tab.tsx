@@ -8,7 +8,7 @@ interface Props{
 
 const Tab = (props: Props) => {
   return (
-    <button onClick={props.onClcik} className={`relative w-[89px] text-sm font-semibold font-el ${props.className}`}>{props.label}</button>
+    <button onClick={props.onClcik} className={`relative w-[60px] md:w-[89px] text-sm font-semibold font-el ${props.className}`}>{props.label}</button>
   )
 }
 

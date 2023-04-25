@@ -35,8 +35,8 @@ const Task = (props: Props) => {
   return (
     <div className="task flex justify-between items-center mb-6">
         <div className="flex items-center gap-[7px]">
-        <input type="checkbox" checked={props.currentTodo.completed} onChange={(e) => checkTask(e)} className="h-6 w-6" />
-        <p className={`task-content text-black font-medium text-[18px] font-el leading-[22px] ${props.currentTodo.completed? "line-through": ""}`}>{props.currentTodo.text}</p>
+        <input type="checkbox" checked={props.currentTodo.completed} onChange={(e) => checkTask(e)} className=" w-[18px] h-[18px] md:h-6 w-6" />
+        <p className={`task-content text-black font-medium text-[16px] md:text-[18px] font-el leading-[22px] ${props.currentTodo.completed? "line-through": ""}`}>{props.currentTodo.text}</p>
         </div>
         <button className="delete-task" onClick={deleteTask}><MdDeleteOutline className='text-secondry-100 w-6 h-6'/></button>
     </div>
